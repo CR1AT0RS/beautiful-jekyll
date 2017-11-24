@@ -2,7 +2,7 @@
 layout: post
 title: NASA Remote code execution
 subtitle: Remote code execution in Nasa satellites and systems
-image: https://www.ncdc.noaa.gov/data-access/radar-data
+image: https://www.nasa.gov/sites/default/files/files/nasa_insignia_300.jpg
 tags:
 - NASA
 - Security
@@ -14,7 +14,7 @@ tags:
 gh-repo: cr1at0rs/cr1at0rs.github.io
 gh-badge: [star, fork, follow]
 ---
-![Crepe](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/200px-NASA_logo.svg.png)
+
 Remote Code execution in NASA libraries. Weather satellites/radars uses **Doppler radar**  data for processing weather information. These radars are deployed all across the world. NASA's response was immediate and issues are fixed :) !
 
 
