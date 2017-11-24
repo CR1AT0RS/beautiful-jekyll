@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+title: NASA Remote code execution
+subtitle: Remote code execution in Nasa satellites and systems
+gh-repo: cr1at0rs/cr1at0rs.github.io
 gh-badge: [star, fork, follow]
 ---
+![Crepe](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/200px-NASA_logo.svg.png)
+Remote Code execution in NASA libraries. Weather satellites/radars uses (Doppler radar data)[https://www.ncdc.noaa.gov/data-access/radar-data] for processing weather information. These radars are deployed all across the world. NASA's response was immediate and issues are fixed :) !
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
 **Here is some bold text**
 
