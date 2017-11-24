@@ -2,20 +2,20 @@
 layout: post
 title: NASA Remote code execution
 subtitle: Remote code execution in Nasa satellites and systems
-image: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSznYN_a65qO0L4mqFU3FUM4amxZMEDrI5zYY2PmYXonWM1g8br
+image: https://www.ncdc.noaa.gov/data-access/radar-data
 tags:
-- Kubernetes
-- Minikube
-- OS X
-- NGINX Container
-- Docker Registry
-- Secrets
-- Docker Hub
+- NASA
+- Security
+- Python
+- Hacking
+- Remote Code execution
+- Vulnerabilities
+- Nitin Arya
 gh-repo: cr1at0rs/cr1at0rs.github.io
 gh-badge: [star, fork, follow]
 ---
 ![Crepe](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/200px-NASA_logo.svg.png)
-Remote Code execution in NASA libraries. Weather satellites/radars uses (Doppler radar data)[https://www.ncdc.noaa.gov/data-access/radar-data] for processing weather information. These radars are deployed all across the world. NASA's response was immediate and issues are fixed :) !
+Remote Code execution in NASA libraries. Weather satellites/radars uses **Doppler radar**  data for processing weather information. These radars are deployed all across the world. NASA's response was immediate and issues are fixed :) !
 
 
 **Here is some bold text**
