@@ -2,6 +2,15 @@
 layout: post
 title: NASA Remote code execution
 subtitle: Remote code execution in Nasa satellites and systems
+image: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSznYN_a65qO0L4mqFU3FUM4amxZMEDrI5zYY2PmYXonWM1g8br
+tags:
+- Kubernetes
+- Minikube
+- OS X
+- NGINX Container
+- Docker Registry
+- Secrets
+- Docker Hub
 gh-repo: cr1at0rs/cr1at0rs.github.io
 gh-badge: [star, fork, follow]
 ---
