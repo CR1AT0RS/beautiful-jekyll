@@ -6,13 +6,32 @@ layout: base
 
 <div class="container" role="main">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> -->
+      <div class="col-lg-9  col-md-10"> 
       {{ content }}
 	    {% if page.comments %}
         <div class="disqus-comments">
 	        {% include disqus.html %}
         </div>
 	    {% endif %}
+    </div>
+
+    <div class="col-lg-3  col-md-4"> 
+     
+<ul class="list-group">
+  <li class="list-group-item"> 
+<button type="button" class="btn btn-success btn-lg btn-block active my-font"> Affiliations <span class="badge badge-light">7</span></button>
+</li>
+<li class="list-group-item"><img class="sideimg" src="/img/google.png" /></li>
+<li class="list-group-item"><img class="sideimg" src="/img/cve.png" width="60%" /></li>
+  <li class="list-group-item"><img class="sideimg" src="/img/owasp-logo.png" width="60%" /></li>
+  <li class="list-group-item"><img class="sideimg" src="/img/isaca.png" width="60%"/></li>
+  <li class="list-group-item"><img class="sideimg" src="/img/offensive.png" width="60%"/></li>
+  <li class="list-group-item"><img class="sideimg" src="/img/cnss.png" width="60%"/></li>
+  <li class="list-group-item"><img class="sideimg" src="/img/uw.png" width="60%"/></li>
+</ul>
+
+
     </div>
   </div>
 </div>
