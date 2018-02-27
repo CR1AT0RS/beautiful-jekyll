@@ -19,15 +19,13 @@ As its name suggests, the HEIST technique—short for HTTP Encrypted Information
 
 Interestingly, a common behavior of web browsers can make this kind of attack successful. Suppose we have two websites: www.1.com and www.2.com. If I embed www.2.com inside my page as an iframe / advertisement, then www.2.com--based on response time--can predict the response time TTL and other parameters used in TCP. For example, REST API with valid URL containing sensitive information is typically secure under TLS, but a boolean-based or dictionary-based evaluation (depending on the scenario) can reveal changes in payload size response time and TCP frames delivery. Although the information is still encrypted, it's possible to start guessing this data and eventually evaluate a valid URL or search query. This information can then be used by the attacker to perform a HEIST attack. Because browsers send authentication cookies (e.g. when you log in to facebook.com) from any request coming from your browser. Those requests are authenticated. 
 
-
 <img src="/img/Screen Shot 2016-08-04 at 12.50.48 PM.png" width="50%" />
 
 That's also the challenge here as for the browser to separate those kind of request and also on server side dropping packets with requests that might be initiated by a separate domain.
 
 <img src="" width="/img/Screen Shot 2016-08-04 at 12.52.22 PM.png" />
 
-Gone in 30 seconds: New attack plucks secrets from HTTPS-protected pages
-
+### Gone in 30 seconds: New attack plucks secrets from HTTPS-protected pages
 Once attackers know the size of an encrypted response, they are free to use one of two previously devised exploits to ferret out the plaintext contained inside it. Both the BREACH and the CRIME exploits are able to decrypt payloads by manipulating the file compression that sites use to make pages load more quickly
 
 ### Attack requirements:
@@ -36,14 +34,12 @@ This attack does not require Man-in-the-Middle access, so the number of possible
 - Any page with an embedded iframe containing your website can send requests to your server.
 - Any non-malicious link which executes JavaScript in your browser is a game over for you. There's not much you can do if you are exposed to the attack via a link that you received and opened in email or from Facebook.
 
-
 ### Impact:
 - Use HEIST to exploit BREACH/CRIME
 - Extract CSRF tokens, private message content
 - Only 2 requirements: gzip/SSL compression + reflected content 
 - Obtain sensitive content from web services
 - Response size is related to user (victim) state
-
 
 ### Protection:
 There is very little you can do to protect yourself as of today. One of the simplest things you can get started on is to begin using private browsing in Firefox/Chrome. By doing so, you have disabled the third-party cookies which, for example, Firefox disables in private browsing mode. It does not offer 100% protection, but you will at least secure yourself against a decent portion of potential attack vectors. 
