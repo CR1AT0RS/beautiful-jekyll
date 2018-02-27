@@ -2,7 +2,7 @@
 layout: post
 title: CVE-2018-1000045- NASA 
 subtitle: Remote code execution in Nasa satellites and systems
-image: img/nasa_insignia_300.jpg
+image: /img/nasa_insignia_300.jpg
 tags:
 - NASA
 - Security

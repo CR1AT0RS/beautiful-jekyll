@@ -2,7 +2,7 @@
 layout: post
 title: HEIST
 subtitle: Everything you need to know to secure against this attack
-image: img/heist.png
+image: /img/heist.png
 published: true
 ---
 ### What is HEIST
