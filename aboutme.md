@@ -4,7 +4,7 @@ title: About me
 subtitle: Buffer is my playground
 ---
 
-My name is Nitin Arya.
+My name is Nitin.
 
 
 - I love my planet earth
