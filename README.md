@@ -1,1 +1,1 @@
-Nitin Arya's personal blog
+Personal blog
