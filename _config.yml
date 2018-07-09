@@ -53,9 +53,9 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Nitin Arya
   email: ""
-  github: CR1AT0RS    # eg. daattali
-  twitter: n_arya0 # eg. daattali
-  linkedin: nitin-arya-59315439  # eg. daattali
+  github:    # eg. daattali
+  twitter: g0dc0de # eg. daattali
+  linkedin:   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
